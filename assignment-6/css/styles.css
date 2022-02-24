@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    background-color: #343e3d;
+}
+
+h1 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: #38E4AE;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    padding: 6px;
+    margin: 8px 4px 8px 4px;
+    font-size: 1.25em;
+    font-style: italic;
+    text-align: center;
+    background-color: #343e3d;
+    border-radius: 15px;
+    color: #fff;
+}
+
+main {
+    background-color: #607466;
+    padding: 0px 10px 10px 10px;
+    margin: 2em auto auto auto;
+    width: 600px;
+    border-radius: 5px 5px;
+}
+
+li {
+    background-color: #AEDCC0;
+    color: #343E3D;
+    border-top: 2px dashed #5f0e00;
+    border-bottom: 2px dashed #5a1800;
+    list-style-type: none;
+    height: 40px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+.green {
+    color: #72d382;
+}
+
+.yellow {
+    color: #fffc57;
+}
+
+.red {
+    color: #ad0c00;
+}
+
+.confirmed {
+    background-color: #72d382;
+}
+
+.not {
+    background-color: #ad0c00;
+    color: #fff;
+}
+
+.maybe {
+    background-color: #fffc57;
+}
