@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    border: 10px dashed rgb(255, 238, 0);
+    border-radius: 5%;
+    color: #fff;
+    width: 80%;
+    height: 500px;
+    margin: 3em auto auto auto;
+    padding: .5em 1em .5em 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin: 2px;
+    display: inline-block;
+}
+
+input.output, textarea {
+    background-color: #999;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+/* input[type='text'], textarea {
+    background-color: #999;
+    color: #666;
+}
+   
+  input[type='text']:focus, input[type='password']:focus, textarea:focus {
+    border: 1px solid #fff;
+    background-color: #fff;
+    outline: none;} */
