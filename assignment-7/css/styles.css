@@ -4,11 +4,10 @@ html {
 }
 
 body {
-    border: 10px dashed rgb(255, 238, 0);
+    border: 5px dashed rgb(255, 238, 0);
     border-radius: 5%;
     color: #fff;
-    width: 80%;
-    height: 500px;
+    width: 60%;
     margin: 3em auto auto auto;
     padding: .5em 1em .5em 1em;
     text-align: center;
@@ -20,11 +19,14 @@ h1 {
 
 label {
     display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25em;
+    margin: 0 0 10px 0;
 }
 
 input {
-    margin: 2px;
     display: inline-block;
+    margin: 0 0 10px 0;
 }
 
 input.output, textarea {
@@ -33,15 +35,5 @@ input.output, textarea {
 
 button {
     display: block;
-    margin: auto;
+    margin: auto auto 20px auto;
 }
-
-/* input[type='text'], textarea {
-    background-color: #999;
-    color: #666;
-}
-   
-  input[type='text']:focus, input[type='password']:focus, textarea:focus {
-    border: 1px solid #fff;
-    background-color: #fff;
-    outline: none;} */
