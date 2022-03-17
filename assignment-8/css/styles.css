@@ -1,3 +1,4 @@
+/* jQuery styles */
 #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
 #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
 #resizable { width: 150px; height: 150px; padding: 0.5em; }
@@ -9,3 +10,12 @@
 #button { padding: .5em 1em; text-decoration: none; }
 #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
 #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+img {
+    width: 100px;
+}
+
+img.heart {
+    width: 100%;
+    height: 100%
+}
