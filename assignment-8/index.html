@@ -3,9 +3,69 @@
 <head>
   <title>Assignment 7: E. Brink</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 </head>
 <body>
-
-  <script src="js/a8.js"></script>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Directions</a></li>
+      <li><a href="#tabs-2">1. Catch the Mouse</a></li>
+      <li><a href="#tabs-3">2. Size up your Love</a></li>
+      <li><a href="#tabs-4">3. New Cat Order</a></li>
+      <li><a href="#tabs-5">4. Real Eyes Realize</a></li>
+      <li><a href="#tabs-6">Results</a></li>
+    </ul>
+    <div id="tabs-1">
+      <h1>IQ TEST FOR CATS</h1>
+      <h2>Directions:</h2>
+      <p>Is your cat a real dummy? Are they a genius trapped in fur? Find out with these challenges. Just sit them in front of the screen and let 'em at it!</p>
+    </div>
+    <div id="tabs-2">
+      <div id="draggable" class="ui-widget-content">
+        <p>I'm a mouse! Drag me to the cat!!</p>
+      </div> 
+      <div id="droppable" class="ui-widget-header">
+        <p>I'm the cat! Drag the mouse to me!</p>
+      </div>
+    </div>
+    <div id="tabs-3">
+      <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Size of Love</h3>
+      </div>
+      <p>Resize this box so it is the size of the love you have for your pet (they sometimes call themselves "owners").</p>
+    </div>
+    <div id="tabs-4">
+      <h2>Sort these into order of importance; from most to least</h2>
+      <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Other Cats</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Food</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Sleep</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Litter</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Birds</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Mice</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Humans</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Catnip</li>
+      </ul>
+    </div>
+    <div id="tabs-5">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+          <p>
+            What do you see when the button is clicked, cool cat?
+          </p>
+        </div>
+      </div>
+      <button id="button" class="ui-state-default ui-corner-all">This is the button to click!</button>      
+    </div>
+    <div id="tabs-6">
+      <h1>RESULTS!</h1>
+      <p>Every cat is a genius trapped in fur!! If you had your cat taking this because you thought they could be a real dummy, <b>YOU</b> are the real dummy!</p>
+    </div>
+</div>
+<script src="js/a8.js"></script>
 </body>
 </html>
