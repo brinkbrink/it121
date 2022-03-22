@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-size: 4.5em;
+    color: #850101;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+p {
+    padding: 5px 0px 5px 0px;
+    font-size: 1.25em;
+}
+
+body {
+    background-color: #1d2126;
+    margin: auto;
+}
+
+#box {
+    background-color: rgb(138, 138, 138);
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+    width: 600px;
+    border-radius: 5px 5px;
+}
+
+.sale {
+    color: rgb(194, 5, 5);
+    font-weight: 700;
+}
+
+.title {
+    font-style: italic;
+}
+
+.markdown {
+    font-style: italic;
+    color:rgb(58, 58, 58)
+}
